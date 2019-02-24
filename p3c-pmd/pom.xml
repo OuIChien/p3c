@@ -14,7 +14,7 @@
   <name>p3c-pmd</name>  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
-    <pmd.version>5.5.2</pmd.version> 
+    <pmd.version>6.10.0</pmd.version> 
   </properties>
 
   <description>Alibaba Java Coding Guidelines PMD implementations</description>
@@ -77,7 +77,7 @@
       <groupId>net.sourceforge.pmd</groupId>  
       <artifactId>pmd-java</artifactId>  
       <version>${pmd.version}</version> 
-    </dependency>  
+    </dependency>
     <dependency> 
       <groupId>net.sourceforge.pmd</groupId>  
       <artifactId>pmd-vm</artifactId>  

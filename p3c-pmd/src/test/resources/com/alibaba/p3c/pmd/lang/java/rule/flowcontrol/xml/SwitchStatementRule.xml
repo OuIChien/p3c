@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<test-data>
-	<code-fragment id="switch-no-default-1">
+<test-data
+		xmlns="http://pmd.sourceforge.net/rule-tests"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://pmd.sourceforge.net/rule-tests http://pmd.sourceforge.net/rule-tests_1_0_0.xsd">
+
+<code-fragment id="switch-no-default-1">
 		<![CDATA[
 	public class Example {
 	    public void fn() {

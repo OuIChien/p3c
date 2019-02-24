@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<test-data>
-	<code-fragment id="in-loop-user-plus">
+<test-data
+		xmlns="http://pmd.sourceforge.net/rule-tests"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://pmd.sourceforge.net/rule-tests http://pmd.sourceforge.net/rule-tests_1_0_0.xsd">
+
+<code-fragment id="in-loop-user-plus">
 		<![CDATA[
 	public class Example {
 		public void fn() {
@@ -104,7 +108,7 @@
 		<code-ref id="assign-variable-out-of-loop" />
 	</test-code>
 
-	======================================================================
+	<!-- ====================================================================== -->
 	<code-fragment id="assign-variable-in-loop">
 		<![CDATA[
 	import java.util.List;

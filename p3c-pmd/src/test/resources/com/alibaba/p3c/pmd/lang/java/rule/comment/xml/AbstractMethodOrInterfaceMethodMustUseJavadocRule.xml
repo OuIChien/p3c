@@ -4,7 +4,7 @@
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="http://pmd.sourceforge.net/rule-tests http://pmd.sourceforge.net/rule-tests_1_0_0.xsd">
 
-<code-fragment id="non-abstract-method-in-abstract-class"><![CDATA[
+	<code-fragment id="non-abstract-method-in-abstract-class"><![CDATA[
 public abstract class AbstractClassOrInterfaceMethodMustUseJavadoc {
     public String getName(String firstName, String secondName) throws XPathException, IOException {
         return "lalalala";

@@ -4,7 +4,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://pmd.sourceforge.net/rule-tests http://pmd.sourceforge.net/rule-tests_1_0_0.xsd">
 
-<code-fragment id="ServiceClassNamingRule">
+    <code-fragment id="ServiceClassNamingRule">
         <![CDATA[
 public class ServiceNameRuleTest implements TestDAO{
     class ServiceNameRuleTest1 implements TestService{

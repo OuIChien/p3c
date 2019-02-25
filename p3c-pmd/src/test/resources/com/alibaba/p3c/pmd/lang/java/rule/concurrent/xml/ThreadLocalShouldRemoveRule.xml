@@ -3,12 +3,12 @@
          xmlns="http://pmd.sourceforge.net/rule-tests"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://pmd.sourceforge.net/rule-tests http://pmd.sourceforge.net/rule-tests_1_0_0.xsd">
-
-        <test-code>
-            <description>ThreadLocalShouldRemoveRule</description>
-            <expected-problems>2</expected-problems>
-            <expected-linenumbers>9,10</expected-linenumbers>
-            <code><![CDATA[
+    
+    <test-code>
+        <description>ThreadLocalShouldRemoveRule</description>
+        <expected-problems>2</expected-problems>
+        <expected-linenumbers>9,10</expected-linenumbers>
+        <code><![CDATA[
 package com.alibaba.p3c.example.concurrent;
 
 /**
@@ -27,12 +27,12 @@ public class ThreadLocalTest {
 }
 
         ]]></code>
-        </test-code>
+    </test-code>
 
-        <test-code>
-            <description>with remove</description>
-            <expected-problems>0</expected-problems>
-            <code><![CDATA[
+    <test-code>
+        <description>with remove</description>
+        <expected-problems>0</expected-problems>
+        <code><![CDATA[
 package com.alibaba.p3c.example.concurrent;
 
 /**
@@ -50,7 +50,7 @@ public class ThreadLocalTest {
     }
 }
         ]]></code>
-        </test-code>
+    </test-code>
 
     <test-code>
         <description>with initial 1</description>
